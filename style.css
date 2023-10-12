@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Kanit:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300;1,500&family=Ubuntu:wght@300;400&display=swap');
+
+
+
+
+*{
+margin: 0;
+padding:0;
+background-color: #2F1893;
+}
+
+
+.header {
+    background-color: #2F1893; 
+    color: #fff; 
+   padding: 10px;
+    width: 972px;
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    left: 213px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: #fff; /* Set your desired link color */
+    font-family: 'DM Sans' ; 
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31.25px;
+    letter-spacing: -0.29px;
+    text-align: center;
+}
+
+/* Style the right side links */
+.header-right {
+    display: flex;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #fff; 
+    margin-left: 15px; 
+}
+
+/* Style the main content area */
+.main-content {
+    padding: 50px;
+}
+
+
+.header-right a#overview {
+    width: 80px;
+    height: 26px;
+    top: 72.4px;
+    left: 682px;
+    opacity: 0.3;
+    display: block;
+    font-family: 'DM Sans' ; 
+}
+
+.header-right a#blog {
+    width: 53px;
+    height: 26px;
+    top: 72.4px;
+    left: 795px;
+    display: block;
+    font-family: 'DM Sans' ; 
+}
+
+.header-right a#prices {
+    width: 53px;
+    height: 26px;
+    top: 72.4px;
+    left: 795px;
+    display: block;
+    font-family: 'DM Sans' ; 
+}
+
+.header-right a#feedback {
+    width: 84px;
+    height: 26px;
+    top: 72.4px;
+    left: 947px;
+    display: block;
+    font-family: 'DM Sans' ; 
+}
+
+.header-right a#purchase {
+    width: 79px;
+    height: 26px;
+    top: 7px;
+    left: 21px;
+    font-family: 'DM Sans' ; 
+    background-color: #E93A7D;
+    border: 3px solid #E93A7D;
+    border-radius: 100px;
+    display: block;
+    text-align: center;
+    line-height:22px ;
+}
+
+
+
+/* Styles for the left side content   */
+.left-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box {
+    position: absolute;
+  
+}
+
+.box-title {
+    margin: 0;
+}
+
+
+.box-text {
+    margin: 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.learnmore-button {
+    width: 96px;
+    height: 26px;
+    bottom: 0;
+    left: 210px;
+   
+    position: absolute;
+    margin-bottom: 40px;
+}
+
+.learnmore-button a {
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #E93A7D;
+    background-color: #E93A7D;
+    border-radius: 100px;
+    font-size: small;
+    font-family: 'DM sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.border-container {
+    width: 400px;
+    height: 440px;
+    top: 140px;
+    left: 715px;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #EBEAED; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-heading {
+    font-family: 'DM Sans';
+    color: #1E0E62;
+    background-color: #EBEAED;
+    font-weight:1300;
+    font-size: 35px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+
+   /* input container style  */
+.input-container {
+    width: 330px;
+    height: 50px;
+    background-color: #EBEAED;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 5px 20px;
+   
+}
+
+.input-container input {
+    width:100%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: #EBEAED;
+    outline: none;
+    border: none;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    padding:10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0  2px rgba(21, 20, 57, 0.4)    inset;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* checkbox container style */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    background-color: #EBEAED;
+    margin-bottom: 15px;
+}
+
+/* checkbox style */
+.checkbox-container input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px; 
+    height: 20px; 
+    background-color: #25DAC5; 
+    border: 2px solid #25DAC5; 
+    border-radius: 6px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* style for checked state */
+.checkbox-container input:checked {
+    background-color: #25DAC5;
+    border: 2px solid #25DAC5;
+}
+
+/* check mark style */
+.checkbox-container input:checked::before {
+    content: '\2713'; 
+    font-size: 18px; 
+    color: #1E0E62; 
+    position: absolute;
+     left:74px;
+     bottom:173px;
+    transform: translate(-50%, -50%);
+}
+
+/* text style */
+.terms-text {
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(21, 20, 57, 0.4) ;
+    background-color: #EBEAED;
+}
+
+
+
+
+/* sign-in section style */
+.sign-in-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBEAED;
+    margin-top: 5px;
+}
+
+/* sign-in button style */
+.sign-in-button {
+    width: 250px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #482BE7;
+    border: none;
+    color: #fff;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* divider style */
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #EAEAEA;
+    margin: 20px auto;
+}
+
+/* Twitter login button style */
+.twitter-login-button {
+    width: 200px;
+    height: 40px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* account section style */
+.account-section {
+    display: flex;
+    align-items: center;
+    background-color: #EBEAED;
+    margin-bottom: 10px;
+}
+
+/* sign-in text style */
+.sign-in-text {
+    color:#25DAC5;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #EBEAED;
+}
+
